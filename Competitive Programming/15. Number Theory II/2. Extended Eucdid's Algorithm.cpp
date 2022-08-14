@@ -44,5 +44,5 @@ void extendedEuclidAlgorithm(int a, int b){
 int main()
 {
     extendedEuclidAlgorithm(18, 30);
-    cout<<x<<" "<<y<<endl;
+    cout<<x<<" "<<GCD<<endl;
 }   
