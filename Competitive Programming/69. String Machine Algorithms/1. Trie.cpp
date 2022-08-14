@@ -78,7 +78,6 @@ int main()
     string pat = "aaca";
 
     int n = text.size();
-    int m = pat.size();
     for(int i=0; i<n; i++)
     {
         insert(text.substr(i));

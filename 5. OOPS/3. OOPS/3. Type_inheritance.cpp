@@ -35,7 +35,7 @@ class Vehicle{
         cout<<"Vechicle Constructor called !"<<" "<<z<<endl;
     }
     ~Vehicle(){
-        cout<<"Vechicle Constructor called !"<<endl;
+        cout<<"Vechicle Destructor called !"<<endl;
     }
 };
 
@@ -45,7 +45,7 @@ class Car: virtual public Vehicle{
         cout<<"Car Constructor called !"<<endl;
     }
     ~Car(){
-        cout<<"Car Constructor called !"<<endl;
+        cout<<"Car Destructor called !"<<endl;
     }
 };
 
@@ -55,7 +55,7 @@ class Truck : virtual public Vehicle{
         cout<<"Truck Constructor called !"<<endl;
     }
     ~Truck(){
-        cout<<"Truck Constructor called !"<<endl;
+        cout<<"Truck Destructor called !"<<endl;
     }
 };
 
@@ -65,7 +65,7 @@ class Bus : public Car, public Truck{
         cout<<"Bus Constructor called !"<<endl;
     }
     ~Bus(){
-        cout<<"Bus Constructor called !"<<endl;
+        cout<<"Bus Destructor called !"<<endl;
     }
 };
 
